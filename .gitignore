@@ -1,0 +1,23 @@
+# gitignore file:
+
+# ignore all archives
+*.bz
+*.bz2
+
+# keep two as test cases
+!2025-06-19.sacct.log.bz2
+!2025-06-19.tar.bz2
+
+# ignore any swap file
+*.swp
+
+# ignore Rdata and Rhistory files
+.RData
+.Rhistory
+
+# test file
+test.R
+
+# any unpacked files
+*.csv
+*.log
